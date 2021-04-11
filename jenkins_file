@@ -1,0 +1,15 @@
+node(label){
+  stage(){
+  }
+}
+
+-------------
+pipeline{
+  agent[label'<nodename>']
+  stages{
+    stage{
+      steps{
+      }
+    }
+  }
+}
